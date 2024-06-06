@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 600px 700px;
+}
+
+.aside {
+    grid-column: 1 / 2;
+}
+
+.contenido {
+    margin-left: 20px;
+    grid-column: 2 / 3;
+}
+
+.card-img-top {
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding-top: 20px;
+}
+.card-body{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.contenido {
+    text-align: justify; /* Justifica el texto dentro del contenedor */
+    padding: 10px; /* Añade un espacio interno alrededor del contenido */
+}
+
+.contenido h3 {
+    color: #333; /* Cambia el color de los títulos */
+    font-size: 24px; /* Cambia el tamaño de los títulos */
+    margin-bottom: 10px; /* Añade un espacio entre los títulos y el párrafo siguiente */
+}
+
+.contenido .texto, .contenido p {
+    font-size: 16px; /* Cambia el tamaño del texto */
+    line-height: 1.6; /* Ajusta el espaciado entre líneas */
+    margin-bottom: 20px; /* Añade un espacio entre párrafos */
+}
+
+/* Estilos adicionales para los párrafos con los títulos */
+.contenido h3 + p {
+    font-style: italic; /* Hace que los párrafos después de los títulos tengan estilo cursiva */
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: purple;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    a {
+        letter-spacing: 2px;
+        font-size: 40px;
+        padding-right: 50px;
+    }
+}
+
+nav ul a {
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: pink !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #b093ccce;
+    color: pink !important;
+}
